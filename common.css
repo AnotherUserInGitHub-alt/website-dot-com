@@ -11,3 +11,11 @@ a:hover{
 a:active {
     color:blue;
 }
+
+.style {
+	border: 4px groove black;
+	background: black;
+	color:white;
+	padding:2em;
+	margin:2em;
+}
