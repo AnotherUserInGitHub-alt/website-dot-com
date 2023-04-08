@@ -3,3 +3,11 @@
   border-radius: 2px;
   padding: 1em;
 }
+
+a:hover{
+    color:red;
+}
+
+a:active {
+    color:blue;
+}
