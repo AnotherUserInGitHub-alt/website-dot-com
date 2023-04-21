@@ -3,10 +3,35 @@
   <head>
     <link rel="stylesheet" href="common.css">
     <title>Example HTML Page</title>
+<style>
+      /* Estilos predeterminados */
+      body {
+        background-color: white;
+        color: black;
+      }
+      
+      .tema-oscuro {
+        background-color: black;
+        color: white;
+      }
+    </style>
   </head>
   <body>
     <h1>Welcome to my website!</h1>
-    <p>This is an example HTML page.</p>
+        <p>Seleccione un tema:</p>
+    
+    <button onclick="activarTemaClaro()">Tema claro</button>
+    <button onclick="activarTemaOscuro()">Tema oscuro</button>
+    
+    <script>
+      function activarTemaClaro() {
+        document.body.classList.remove("tema-oscuro");
+      }
+      
+      function activarTemaOscuro() {
+        document.body.classList.add("tema-oscuro");
+      }
+    </script>
     <div class="style">
     <ul>
 <table>
